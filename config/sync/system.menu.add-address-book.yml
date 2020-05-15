@@ -1,0 +1,8 @@
+uuid: 74e4cf95-87d9-4e66-9fea-52956ace92ed
+langcode: en
+status: true
+dependencies: {  }
+id: add-address-book
+label: 'Add address book'
+description: ''
+locked: false

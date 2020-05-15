@@ -1,0 +1,18 @@
+uuid: 2e5e7bba-f787-4581-afeb-eeb46df0520a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Address Book'
+type: address_book
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

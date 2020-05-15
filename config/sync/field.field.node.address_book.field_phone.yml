@@ -1,0 +1,19 @@
+uuid: 53d92bc5-e9db-4d1a-9e80-410fcdfcc6e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone
+    - node.type.address_book
+id: node.address_book.field_phone
+field_name: field_phone
+entity_type: node
+bundle: address_book
+label: Phone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

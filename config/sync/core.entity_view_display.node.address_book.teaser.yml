@@ -1,0 +1,26 @@
+uuid: 1d3a9a8a-4abf-41f3-9b76-11dfcbb9c9ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.address_book.field_dob
+    - field.field.node.address_book.field_email
+    - field.field.node.address_book.field_phone
+    - node.type.address_book
+  module:
+    - user
+id: node.address_book.teaser
+targetEntityType: node
+bundle: address_book
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_dob: true
+  field_email: true
+  field_phone: true

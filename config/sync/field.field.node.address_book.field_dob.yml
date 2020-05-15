@@ -1,0 +1,21 @@
+uuid: 931af7d2-b3c6-4ce4-b5f2-a552e8adc317
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dob
+    - node.type.address_book
+  module:
+    - datetime
+id: node.address_book.field_dob
+field_name: field_dob
+entity_type: node
+bundle: address_book
+label: DOB
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

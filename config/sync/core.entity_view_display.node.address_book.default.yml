@@ -1,0 +1,47 @@
+uuid: 3375bd41-ddc7-471b-a6a4-8ebe2d6debb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.address_book.field_dob
+    - field.field.node.address_book.field_email
+    - field.field.node.address_book.field_phone
+    - node.type.address_book
+  module:
+    - datetime
+    - user
+id: node.address_book.default
+targetEntityType: node
+bundle: address_book
+mode: default
+content:
+  field_dob:
+    weight: 101
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_email:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_phone:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

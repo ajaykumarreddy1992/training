@@ -1,0 +1,18 @@
+uuid: 6a67b218-bec6-4649-86b7-242308678a92
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.address_book
+id: node.address_book.title
+field_name: title
+entity_type: node
+bundle: address_book
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
