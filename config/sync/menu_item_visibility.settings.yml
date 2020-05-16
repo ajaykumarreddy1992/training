@@ -1,0 +1,5 @@
+mlid:
+  'menu_link_content:f51b2c09-15d9-4b78-8365-c2b5eedf896a':
+    roles:
+      - authenticated
+    access_check: false
