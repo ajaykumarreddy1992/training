@@ -3,3 +3,7 @@ mlid:
     roles:
       - authenticated
     access_check: false
+  'menu_link_content:935e9925-f60b-4a3f-88b7-7faa543dab49':
+    roles:
+      - authenticated
+    access_check: false
